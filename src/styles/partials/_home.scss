@@ -1,0 +1,43 @@
+.input-container {
+	height: 92%;
+	text-align: center;
+}
+
+.input-header {
+	margin: 0 auto;	
+	padding-top: 100px;	
+	font-family: 'Shadows Into Light Two', cursive;		
+	color: black;
+	font-size: 55px;
+	margin-bottom: 30px;		
+}
+
+.input-controls {
+	width: 80%;
+	max-width: 350px;
+	margin: 0 auto;
+}
+
+.submit-button {
+	margin-top: 20px;
+	font-family: Helvetica;
+	background-color: #fb992d;
+	color: #fff;
+	padding: 10px;
+
+	&:hover {
+		color: #eee;
+	}
+}
+
+
+// MEDIA QUERIES
+
+// Extra Small Styles
+@media (max-width: 767px) {
+	.input-header {
+		padding: 50px 15px 0 15px;
+		margin-bottom: 65px;
+		font-size: 45px;
+	}
+}

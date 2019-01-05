@@ -1,0 +1,90 @@
+.error-message {
+	font-size: 50px;
+	margin-top: 40px;
+}
+
+.loading-message {
+	text-align: center;
+	font-size: 38px;
+	margin-top: 150px;
+}
+
+.sub-loading {
+	font-size: 28px;
+}
+
+.location-header {		
+	margin-top: 30px;
+	font-size: 60px;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+.sub-header {
+	margin-top: 15px;
+	margin-bottom: 40px;
+	color: #f67a21;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+.col-style {
+	margin-top: 30px;
+}
+
+.i-styling {
+	font-size: 205px;
+	cursor: pointer;
+	color: #333;
+}
+
+.date-text {
+	position: relative;
+	bottom: 20px;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 30px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: row;
+	justify-content: center;
+	align-content: center;
+}
+
+.flex-item {
+	width: 15%;
+}
+
+.forecast-date-text {
+		position: relative;
+		bottom: 20px;
+		font-family: 'Shadows Into Light Two', cursive;	
+		color: black;
+		font-weight: bold;
+		font-size: 20px;
+}
+
+
+// MEDIA QUERIES
+
+// Extra Small Styles
+@media (max-width: 767px) {
+	.loading-message {
+		margin-top: 30px;
+	}
+
+	.location-header {
+		font-size: 40px;
+	}
+
+	.sub-header {
+		font-size: 30px;
+		margin-bottom: 0px;
+	}
+
+	.i-styling {
+		font-size: 155px;
+	}
+}

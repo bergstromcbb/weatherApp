@@ -1,0 +1,44 @@
+.detail-location-header {		
+	margin-top: 20px;
+	font-size: 60px;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+.i-detail {
+	font-size: 205px;
+	color: #333;
+}
+
+.date-text {
+	position: relative;
+	bottom: 20px;
+	color: #0092bd;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.description-text {
+	font-family: 'Shadows Into Light Two', cursive;
+	color: #fb992d;
+	font-size: 30px;
+}	
+
+
+// MEDIA QUERIES
+
+// Extra Small Styles
+@media (max-width: 767px) {
+	.detail-location-header {
+		font-size: 40px;
+		margin-top: 20px;
+		margin-bottom: 5px;
+	}
+
+	.i-detail {
+		font-size: 180px;
+	}
+
+	.description-text {
+		font-size: 28px;
+	}
+}

@@ -1,0 +1,33 @@
+@import 'partials/_owfont.scss';
+@import 'partials/_home.scss';
+@import 'partials/_header.scss';
+@import 'partials/_forecast.scss';
+@import 'partials/_detail.scss';
+@import 'partials/_notfound.scss';
+@import 'partials/_transition.scss';
+
+html, body, #app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {	
+	font-family: 'Lato', sans-serif;
+	color: black;
+}
+
+input {
+	font-family: Helvetica;
+}
+
+
+// MEDIA QUERIES
+
+// Extra Small Styles
+@media (max-width: 767px) {
+	.container {
+		margin-bottom: 50px;
+	}
+}
