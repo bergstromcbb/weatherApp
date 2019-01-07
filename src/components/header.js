@@ -37,15 +37,17 @@ class Header extends React.Component {
 	render() {
 		return (
 			<div className="main-nav">
+				<div classname="logo-img">
+
 				<Link to="/">
-					<div classname="logo-img">
 					<img style={{ marginLeft: "26px", marginTop: "-16px" }}src={ logo } alt="weather logo"/>
 
-					<h2 className="nav-logo">What is the weather like....</h2>
+					<h2 className="nav-logo">What is the weather like....</h2>				
+				</Link>
+
 				<button type="button" className="btn header-button hidden-xs" onClick={this.handleSubmit}>Get Weather</button>
 				<input type="text" className="text-input hidden-xs" placeholder="Detroit, United States" onChange={this.handleUpdate} onKeyPress={this.handleEnter} id="headerInput" />
 				</div>
-				</Link>
 			</div>
 		)
 	}

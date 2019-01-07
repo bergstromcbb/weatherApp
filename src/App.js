@@ -16,7 +16,6 @@ class App extends Component {
         <Route exact path="/" component={HomeContainer} />
         <Route path='/forecast/:location' component={ForecastContainer} />
         <Route path='/detail' component={DetailContainer} />
-\
      </div>
     </Router>
     );
