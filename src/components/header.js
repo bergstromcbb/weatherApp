@@ -40,9 +40,9 @@ class Header extends React.Component {
 				<div classname="logo-img">
 
 				<Link to="/">
-					<img style={{ marginLeft: "26px", marginTop: "-16px" }}src={ logo } alt="weather logo"/>
+					<img className="bench" src={ logo } alt="weather logo"/>
 
-					<h2 className="nav-logo">What is the weather like....</h2>				
+					<h2 className="nav-logo">What is the weather like ....</h2>				
 				</Link>
 
 				<button type="button" className="btn header-button hidden-xs" onClick={this.handleSubmit}>Get Weather</button>

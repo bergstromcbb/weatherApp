@@ -20,7 +20,7 @@
 .nav-logo {
 	margin: 0;
 	font-family: 'Shadows Into Light Two', cursive;
-	display: inline-block;
+	display: inline;
 	color: #fff;
 	margin-left: 20px;
 	position: relative;
@@ -49,6 +49,10 @@
 	float: right;
 	margin-right: 15px;
 }
+.bench {
+	margin-left: 26px;
+	margin-top: -16px;
+}
 
 
 // MEDIA QUERIES
@@ -56,7 +60,13 @@
 // Extra Small Styles
 @media (max-width: 767px) {
 	.main-nav a {
-		display: inline-block;
-		height: 100%;
+		display: inline;
+	}
+	.nav-logo {
+		padding-top: 5px;
+		font-size: 23px;
+	}
+	.bench {
+		width: 25%;
 	}
 }

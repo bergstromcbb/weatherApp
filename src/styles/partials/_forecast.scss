@@ -48,7 +48,7 @@
 .flex-container {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: row;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-content: center;
 }
@@ -86,5 +86,17 @@
 
 	.i-styling {
 		font-size: 155px;
+	}
+	.flex-container
+	{
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+	}
+	.flex-item {
+		width: 100%;
 	}
 }

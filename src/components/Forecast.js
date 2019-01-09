@@ -32,11 +32,11 @@ let Forecast = (props) => {
 				<div className="row text-center">
 					<div className="location-header">{props.weatherForecast.city.name + ', ' + props.weatherForecast.city.country}</div>
 					<div className="sub-header">Select a day</div>					
-				<div className="row text-center flex-container">					
+				<div className="text-center flex-container">					
 					{props.weatherForecast.list.map(function (day, index) {						
 						var icon = day.weather[0].icon;
 						return (
-							<div key={uniqueKey()} className="flex-item text-center col-style">
+							<div key={uniqueKey()} className="flex-item text-center">
 								<Link to={{
 							 	  pathname: '/detail',
 								  state: {
@@ -45,7 +45,7 @@ let Forecast = (props) => {
 								  }									  	
 								}}>
 								  {/* <i className={'i-styling owf ' + 'owf-' + statusCode}></i> */}
-								  <img style={{width:"100px"}} src={`http://openweathermap.org/img/w/${icon}.png`}/>
+								  <img style={{width:"100px"}} alt="weather" src={`http://openweathermap.org/img/w/${icon}.png`}/>
 							  </Link>
 							  <div className="forecast-date-text">{getDate(index)}</div>
 							</div>	
